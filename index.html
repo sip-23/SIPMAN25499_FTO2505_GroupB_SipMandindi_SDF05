@@ -12,14 +12,19 @@
         <div class="container">
             <footer class="bg-[#659f8f] dark:bg-[#313131]">
                 <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
-                        <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
+                    <div class="grid md:grid-cols-12 grid-cols-1 gap-7"> 
+                        <!-- create a grid , for middle sized dimension = create 12 col with 1 fraction unit each. but normal must be 1 grid. give a gap -->
+                        <div class="lg:col-span-4 md:col-span-3 sm:col-span-2 ">
+                            <h1 class="max-w-lg tracking-wide font-semibold" >Subscribe to our newsletter for updates</h1>
                             <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
-                                    Subscribe
-                                </button>
+                                <form action=""> 
+                                    <input id="email" type="email" placeholder="example@gmail.com" aria-label="E-mail address for newsletter from CodeSpace"
+                                    class="mt-3 w-full py-2 px-3 h-10 bg-transparent rounded outline-none border focus:border-[#f15a22] focus:pointer">
+                                    <button class="w-full mt-3 px-6 py-2.5 bg-white tracking-wide h-10 bg-transparent rounded outline-none border 
+                                    focus:border-[#f15a22] focus:ring" type="submit">
+                                        Subscribe
+                                    </button>
+                                </form>
                             </div>
                         </div>
                         <div>
