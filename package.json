@@ -1,0 +1,26 @@
+{
+  "name": "sdf05-2025-main",
+  "version": "1.0.0",
+  "description": "Welcome to your **Tailwind Refactor Challenge!** This project is focused on applying Tailwind’s **utility-first approach** to design a fully responsive website footer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sip-23/SIPMAN25499_FTO2505_GroupB_SipMandindi_SDF05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sip-23/SIPMAN25499_FTO2505_GroupB_SipMandindi_SDF05/issues"
+  },
+  "homepage": "https://github.com/sip-23/SIPMAN25499_FTO2505_GroupB_SipMandindi_SDF05#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.10",
+    "vite": "^6.3.5"
+  }
+}
